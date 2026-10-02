@@ -1,0 +1,15 @@
+{
+  "scriptFile" : "../TAPRC-2026-1-1.0-SNAPSHOT.jar",
+  "entryPoint" : "com.function.HttpTriggerJava1.run",
+  "bindings" : [ {
+    "type" : "httpTrigger",
+    "direction" : "in",
+    "name" : "req",
+    "methods" : [ "GET" ],
+    "authLevel" : "ANONYMOUS"
+  }, {
+    "type" : "http",
+    "direction" : "out",
+    "name" : "$return"
+  } ]
+}
